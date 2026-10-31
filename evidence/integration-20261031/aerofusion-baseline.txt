@@ -1,0 +1,27 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.14, pytest-9.2.0, pluggy-1.7.0 -- /workspace/scratch/c3ad9ba72394/work/aerofusion_ros2/../../.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /workspace/scratch/c3ad9ba72394/work/aerofusion_ros2
+collecting ... collected 19 items
+
+test/test_frames.py::FrameGenerationTests::test_deterministic_frames PASSED [  5%]
+test/test_frames.py::FrameGenerationTests::test_dimensions_and_pixel_count PASSED [ 10%]
+test/test_frames.py::FrameGenerationTests::test_invalid_size PASSED      [ 15%]
+test/test_frames.py::FrameGenerationTests::test_object_moves PASSED      [ 21%]
+test/test_tracking.py::TrackingTests::test_class_aware_matching PASSED   [ 26%]
+test/test_tracking.py::TrackingTests::test_exact_synthetic_box PASSED    [ 31%]
+test/test_tracking.py::TrackingTests::test_invalid_boxes_rejected PASSED [ 36%]
+test/test_tracking.py::TrackingTests::test_invalid_image_length PASSED   [ 42%]
+test/test_tracking.py::TrackingTests::test_invalid_tracker_params PASSED [ 47%]
+test/test_tracking.py::TrackingTests::test_iou PASSED                    [ 52%]
+test/test_tracking.py::TrackingTests::test_movement_detected PASSED      [ 57%]
+test/test_tracking.py::TrackingTests::test_multiple_objects_one_to_one PASSED [ 63%]
+test/test_tracking.py::TrackingTests::test_noise_rejection PASSED        [ 68%]
+test/test_tracking.py::TrackingTests::test_non_overlapping_box_creates_new_track PASSED [ 73%]
+test/test_tracking.py::TrackingTests::test_occlusion_one_frame PASSED    [ 78%]
+test/test_tracking.py::TrackingTests::test_old_track_retired PASSED      [ 84%]
+test/test_tracking.py::TrackingTests::test_synthetic_rejects_empty_red PASSED [ 89%]
+test/test_tracking.py::TrackingTests::test_thirty_synthetic_frames_retaining_one_id PASSED [ 94%]
+test/test_tracking.py::TrackingTests::test_tracking_id_persists_with_overlap PASSED [100%]
+
+============================== 19 passed in 0.18s ==============================

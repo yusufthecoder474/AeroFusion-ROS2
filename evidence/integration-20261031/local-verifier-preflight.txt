@@ -1,0 +1,3 @@
+Verification output: /root/aerofusion_verification/run-ANWFTbXW
+BLOCKED: ROS 2 Jazzy is absent
+FAILED (exit 2). Evidence: /root/aerofusion_verification/run-ANWFTbXW

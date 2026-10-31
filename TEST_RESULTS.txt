@@ -1,0 +1,24 @@
+test_deterministic_frames (test_frames.FrameGenerationTests.test_deterministic_frames) ... ok
+test_dimensions_and_pixel_count (test_frames.FrameGenerationTests.test_dimensions_and_pixel_count) ... ok
+test_invalid_size (test_frames.FrameGenerationTests.test_invalid_size) ... ok
+test_object_moves (test_frames.FrameGenerationTests.test_object_moves) ... ok
+test_class_aware_matching (test_tracking.TrackingTests.test_class_aware_matching) ... ok
+test_exact_synthetic_box (test_tracking.TrackingTests.test_exact_synthetic_box) ... ok
+test_invalid_boxes_rejected (test_tracking.TrackingTests.test_invalid_boxes_rejected) ... ok
+test_invalid_image_length (test_tracking.TrackingTests.test_invalid_image_length) ... ok
+test_invalid_tracker_params (test_tracking.TrackingTests.test_invalid_tracker_params) ... ok
+test_iou (test_tracking.TrackingTests.test_iou) ... ok
+test_movement_detected (test_tracking.TrackingTests.test_movement_detected) ... ok
+test_multiple_objects_one_to_one (test_tracking.TrackingTests.test_multiple_objects_one_to_one) ... ok
+test_noise_rejection (test_tracking.TrackingTests.test_noise_rejection) ... ok
+test_non_overlapping_box_creates_new_track (test_tracking.TrackingTests.test_non_overlapping_box_creates_new_track) ... ok
+test_occlusion_one_frame (test_tracking.TrackingTests.test_occlusion_one_frame) ... ok
+test_old_track_retired (test_tracking.TrackingTests.test_old_track_retired) ... ok
+test_synthetic_rejects_empty_red (test_tracking.TrackingTests.test_synthetic_rejects_empty_red) ... ok
+test_thirty_synthetic_frames_retaining_one_id (test_tracking.TrackingTests.test_thirty_synthetic_frames_retaining_one_id) ... ok
+test_tracking_id_persists_with_overlap (test_tracking.TrackingTests.test_tracking_id_persists_with_overlap) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.180s
+
+OK

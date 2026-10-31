@@ -1,0 +1,41 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.14, pytest-9.2.0, pluggy-1.7.0 -- /workspace/scratch/c3ad9ba72394/.venv-runtime/bin/python
+cachedir: .pytest_cache
+rootdir: /workspace/scratch/c3ad9ba72394/work/AeroDetect-Lite
+configfile: pytest.ini
+collecting ... collected 32 items
+
+work/AeroDetect-Lite/tests/test_assets.py::test_existing_asset_is_not_downloaded PASSED [  3%]
+work/AeroDetect-Lite/tests/test_assets.py::test_failed_download_cleans_partial_file PASSED [  6%]
+work/AeroDetect-Lite/tests/test_core.py::test_image PASSED               [  9%]
+work/AeroDetect-Lite/tests/test_core.py::test_missing PASSED             [ 12%]
+work/AeroDetect-Lite/tests/test_core.py::test_format PASSED              [ 15%]
+work/AeroDetect-Lite/tests/test_core.py::test_signature PASSED           [ 18%]
+work/AeroDetect-Lite/tests/test_core.py::test_size PASSED                [ 21%]
+work/AeroDetect-Lite/tests/test_core.py::test_discovery PASSED           [ 25%]
+work/AeroDetect-Lite/tests/test_core.py::test_preprocess PASSED          [ 28%]
+work/AeroDetect-Lite/tests/test_core.py::test_rgb PASSED                 [ 31%]
+work/AeroDetect-Lite/tests/test_core.py::test_invalid_size[0] PASSED     [ 34%]
+work/AeroDetect-Lite/tests/test_core.py::test_invalid_size[33] PASSED    [ 37%]
+work/AeroDetect-Lite/tests/test_core.py::test_invalid_size[-32] PASSED   [ 40%]
+work/AeroDetect-Lite/tests/test_core.py::test_bad_input[tensor0] PASSED  [ 43%]
+work/AeroDetect-Lite/tests/test_core.py::test_bad_input[tensor1] PASSED  [ 46%]
+work/AeroDetect-Lite/tests/test_core.py::test_bad_input[tensor2] PASSED  [ 50%]
+work/AeroDetect-Lite/tests/test_core.py::test_bad_input[tensor3] PASSED  [ 53%]
+work/AeroDetect-Lite/tests/test_core.py::test_nms PASSED                 [ 56%]
+work/AeroDetect-Lite/tests/test_core.py::test_confidence PASSED          [ 59%]
+work/AeroDetect-Lite/tests/test_core.py::test_empty_detection PASSED     [ 62%]
+work/AeroDetect-Lite/tests/test_core.py::test_bad_output[shape0] PASSED  [ 65%]
+work/AeroDetect-Lite/tests/test_core.py::test_bad_output[shape1] PASSED  [ 68%]
+work/AeroDetect-Lite/tests/test_core.py::test_bad_output[shape2] PASSED  [ 71%]
+work/AeroDetect-Lite/tests/test_core.py::test_mapping PASSED             [ 75%]
+work/AeroDetect-Lite/tests/test_core.py::test_metrics PASSED             [ 78%]
+work/AeroDetect-Lite/tests/test_core.py::test_bad_metrics[values0] PASSED [ 81%]
+work/AeroDetect-Lite/tests/test_core.py::test_bad_metrics[values1] PASSED [ 84%]
+work/AeroDetect-Lite/tests/test_core.py::test_bad_metrics[values2] PASSED [ 87%]
+work/AeroDetect-Lite/tests/test_core.py::test_bad_metrics[values3] PASSED [ 90%]
+work/AeroDetect-Lite/tests/test_core.py::test_csv PASSED                 [ 93%]
+work/AeroDetect-Lite/tests/test_core.py::test_annotations PASSED         [ 96%]
+work/AeroDetect-Lite/tests/test_core.py::test_onnx_contract PASSED       [100%]
+
+============================== 32 passed in 0.19s ==============================

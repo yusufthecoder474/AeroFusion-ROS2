@@ -1,0 +1,8 @@
+# Install only in a /usr/bin/python3 --system-site-packages venv on Ubuntu 24.04.
+setuptools>=68,<80
+numpy==1.26.4
+opencv-python-headless==4.11.0.86
+onnxruntime==1.31.1
+onnx==1.23.2
+pytest==9.2.0
+psutil==7.2.2

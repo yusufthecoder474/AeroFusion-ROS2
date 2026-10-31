@@ -1,0 +1,92 @@
+[
+  {
+    "filename": "0000026_00500_d_0000025.jpg",
+    "raw_max_abs_error": 0.0019378662109375,
+    "raw_allclose": true,
+    "torch_count": 8,
+    "onnx_count": 8,
+    "matched": 8,
+    "passed": true
+  },
+  {
+    "filename": "0000026_04000_d_0000032.jpg",
+    "raw_max_abs_error": 0.00115966796875,
+    "raw_allclose": true,
+    "torch_count": 12,
+    "onnx_count": 12,
+    "matched": 12,
+    "passed": true
+  },
+  {
+    "filename": "0000155_00801_d_0000001.jpg",
+    "raw_max_abs_error": 0.00079345703125,
+    "raw_allclose": true,
+    "torch_count": 17,
+    "onnx_count": 17,
+    "matched": 17,
+    "passed": true
+  },
+  {
+    "filename": "0000193_01876_d_0000113.jpg",
+    "raw_max_abs_error": 0.001007080078125,
+    "raw_allclose": true,
+    "torch_count": 18,
+    "onnx_count": 18,
+    "matched": 18,
+    "passed": true
+  },
+  {
+    "filename": "0000194_00800_d_0000123.jpg",
+    "raw_max_abs_error": 0.0009307861328125,
+    "raw_allclose": true,
+    "torch_count": 13,
+    "onnx_count": 13,
+    "matched": 13,
+    "passed": true
+  },
+  {
+    "filename": "0000242_00627_d_0000003.jpg",
+    "raw_max_abs_error": 0.00115966796875,
+    "raw_allclose": true,
+    "torch_count": 9,
+    "onnx_count": 9,
+    "matched": 9,
+    "passed": true
+  },
+  {
+    "filename": "0000276_02601_d_0000520.jpg",
+    "raw_max_abs_error": 0.001312255859375,
+    "raw_allclose": true,
+    "torch_count": 6,
+    "onnx_count": 6,
+    "matched": 6,
+    "passed": true
+  },
+  {
+    "filename": "0000277_01801_d_0000548.jpg",
+    "raw_max_abs_error": 0.0009765625,
+    "raw_allclose": true,
+    "torch_count": 22,
+    "onnx_count": 22,
+    "matched": 22,
+    "passed": true
+  },
+  {
+    "filename": "0000283_00401_d_0000676.jpg",
+    "raw_max_abs_error": 0.001007080078125,
+    "raw_allclose": true,
+    "torch_count": 2,
+    "onnx_count": 2,
+    "matched": 2,
+    "passed": true
+  },
+  {
+    "filename": "0000330_00801_d_0000804.jpg",
+    "raw_max_abs_error": 0.001312255859375,
+    "raw_allclose": true,
+    "torch_count": 25,
+    "onnx_count": 25,
+    "matched": 25,
+    "passed": true
+  }
+]

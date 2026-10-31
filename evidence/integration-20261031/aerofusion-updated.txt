@@ -1,0 +1,41 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.14, pytest-9.2.0, pluggy-1.7.0 -- /workspace/scratch/c3ad9ba72394/work/aerofusion_ros2/../../.venv-runtime/bin/python
+cachedir: .pytest_cache
+rootdir: /workspace/scratch/c3ad9ba72394/work/aerofusion_ros2
+configfile: pytest.ini
+collecting ... collected 32 items
+
+test/test_adapter.py::test_actual_ort_adapter_scaling PASSED             [  3%]
+test/test_adapter.py::test_rgb_bgr_and_padding PASSED                    [  6%]
+test/test_adapter.py::test_bad_encoding_rejected PASSED                  [  9%]
+test/test_adapter.py::test_import_alias_is_scoped PASSED                 [ 12%]
+test/test_frames.py::FrameGenerationTests::test_deterministic_frames PASSED [ 15%]
+test/test_frames.py::FrameGenerationTests::test_dimensions_and_pixel_count PASSED [ 18%]
+test/test_frames.py::FrameGenerationTests::test_invalid_size PASSED      [ 21%]
+test/test_frames.py::FrameGenerationTests::test_object_moves PASSED      [ 25%]
+test/test_pipeline.py::test_topics_preserve_metadata_and_ids PASSED      [ 28%]
+test/test_pipeline.py::test_unrelated_stills_reset_association PASSED    [ 31%]
+test/test_pipeline.py::test_timestamp_rewind_resets PASSED               [ 34%]
+test/test_pipeline.py::test_camera_change_resets PASSED                  [ 37%]
+test/test_pipeline.py::test_rejection_does_not_advance_counter PASSED    [ 40%]
+test/test_pipeline.py::test_padded_rgb_synthetic PASSED                  [ 43%]
+test/test_pipeline.py::test_no_onnx_fallback[onnx-None] PASSED           [ 46%]
+test/test_pipeline.py::test_no_onnx_fallback[bad-None] PASSED            [ 50%]
+test/test_pipeline.py::test_resolution_change_resets PASSED              [ 53%]
+test/test_tracking.py::TrackingTests::test_class_aware_matching PASSED   [ 56%]
+test/test_tracking.py::TrackingTests::test_exact_synthetic_box PASSED    [ 59%]
+test/test_tracking.py::TrackingTests::test_invalid_boxes_rejected PASSED [ 62%]
+test/test_tracking.py::TrackingTests::test_invalid_image_length PASSED   [ 65%]
+test/test_tracking.py::TrackingTests::test_invalid_tracker_params PASSED [ 68%]
+test/test_tracking.py::TrackingTests::test_iou PASSED                    [ 71%]
+test/test_tracking.py::TrackingTests::test_movement_detected PASSED      [ 75%]
+test/test_tracking.py::TrackingTests::test_multiple_objects_one_to_one PASSED [ 78%]
+test/test_tracking.py::TrackingTests::test_noise_rejection PASSED        [ 81%]
+test/test_tracking.py::TrackingTests::test_non_overlapping_box_creates_new_track PASSED [ 84%]
+test/test_tracking.py::TrackingTests::test_occlusion_one_frame PASSED    [ 87%]
+test/test_tracking.py::TrackingTests::test_old_track_retired PASSED      [ 90%]
+test/test_tracking.py::TrackingTests::test_synthetic_rejects_empty_red PASSED [ 93%]
+test/test_tracking.py::TrackingTests::test_thirty_synthetic_frames_retaining_one_id PASSED [ 96%]
+test/test_tracking.py::TrackingTests::test_tracking_id_persists_with_overlap PASSED [100%]
+
+============================== 32 passed in 0.52s ==============================

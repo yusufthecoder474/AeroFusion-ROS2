@@ -1,0 +1,99 @@
+{
+  "status": "PASSED",
+  "ros_transport": "NOT EXECUTED",
+  "images": [
+    {
+      "filename": "0000026_00500_d_0000025.jpg",
+      "detections": 8,
+      "direct_adapter_agreement": true,
+      "tracking_scope": "independent_image"
+    },
+    {
+      "filename": "0000026_04000_d_0000032.jpg",
+      "detections": 12,
+      "direct_adapter_agreement": true,
+      "tracking_scope": "independent_image"
+    },
+    {
+      "filename": "0000155_00801_d_0000001.jpg",
+      "detections": 17,
+      "direct_adapter_agreement": true,
+      "tracking_scope": "independent_image"
+    },
+    {
+      "filename": "0000193_01876_d_0000113.jpg",
+      "detections": 18,
+      "direct_adapter_agreement": true,
+      "tracking_scope": "independent_image"
+    },
+    {
+      "filename": "0000194_00800_d_0000123.jpg",
+      "detections": 13,
+      "direct_adapter_agreement": true,
+      "tracking_scope": "independent_image"
+    },
+    {
+      "filename": "0000242_00627_d_0000003.jpg",
+      "detections": 9,
+      "direct_adapter_agreement": true,
+      "tracking_scope": "independent_image"
+    },
+    {
+      "filename": "0000276_02601_d_0000520.jpg",
+      "detections": 6,
+      "direct_adapter_agreement": true,
+      "tracking_scope": "independent_image"
+    },
+    {
+      "filename": "0000277_01801_d_0000548.jpg",
+      "detections": 22,
+      "direct_adapter_agreement": true,
+      "tracking_scope": "independent_image"
+    },
+    {
+      "filename": "0000283_00401_d_0000676.jpg",
+      "detections": 2,
+      "direct_adapter_agreement": true,
+      "tracking_scope": "independent_image"
+    },
+    {
+      "filename": "0000330_00801_d_0000804.jpg",
+      "detections": 25,
+      "direct_adapter_agreement": true,
+      "tracking_scope": "independent_image"
+    }
+  ],
+  "repeated_still_ids": [
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  ],
+  "limitation": "Repeated identical still only; no real video tracking metrics"
+}

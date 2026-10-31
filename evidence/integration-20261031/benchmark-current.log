@@ -1,0 +1,36 @@
+[
+  {
+    "backend": "onnx_cpu",
+    "scope": "model_call",
+    "mean_ms": 100.91620630000001,
+    "median_ms": 99.7948395,
+    "p95_ms": 111.9486627,
+    "images_per_second": 9.90921118286231,
+    "samples": 50,
+    "images": 10,
+    "repeat": 5,
+    "warmup": 5,
+    "threads": 1,
+    "size": 640,
+    "batch": 1,
+    "model_bytes": 12824166,
+    "failures": 0
+  },
+  {
+    "backend": "onnx_cpu",
+    "scope": "end_to_end",
+    "mean_ms": 108.82202814,
+    "median_ms": 107.014854,
+    "p95_ms": 120.6593307,
+    "images_per_second": 9.189315960124322,
+    "samples": 50,
+    "images": 10,
+    "repeat": 5,
+    "warmup": 5,
+    "threads": 1,
+    "size": 640,
+    "batch": 1,
+    "model_bytes": 12824166,
+    "failures": 0
+  }
+]

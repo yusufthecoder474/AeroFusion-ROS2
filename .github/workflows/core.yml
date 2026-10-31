@@ -1,0 +1,22 @@
+name: AeroFusion core and adapter
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: aerofusion_ros2
+      - uses: actions/checkout@v4
+        with:
+          repository: yusufthecoder474/AeroDetect-Lite
+          path: AeroDetect-Lite
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r aerofusion_ros2/requirements-ros.txt
+      - run: python -m pip check
+      - run: python -m pytest -v test
+        working-directory: aerofusion_ros2
